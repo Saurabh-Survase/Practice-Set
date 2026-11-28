@@ -81,5 +81,19 @@ print(Y)
 
 
 
+Y=('saurabh','ajay', 'sujeet','sanjay','sahil','shubham','Mayur')
+# print(type(tuple))
+# print(tuple)
+x=list(Y)
+x.insert(5,'Nikita')
+# # print(x)
+# Y=tuple(x)
+# print(Y)
+x.append("sasane")
+Y=tuple(x)
+# print(Y)
+s=("Ranjana",)
+Y += s
+print(Y)
 
 
