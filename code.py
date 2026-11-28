@@ -93,6 +93,14 @@ x.append("sasane")
 Y=tuple(x)
 # print(Y)
 s=("Ranjana",)
+
+
+x=list(Y)
+x.pop(5)
+Y=tuple(x)
+print(Y)
+
+
 Y += s
 print(Y)
 
